@@ -1,5 +1,6 @@
 
 - name: install nginx
+  remote_user: pi
   hosts: all
   become: yes
   roles:
